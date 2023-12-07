@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+db-data
+.env*
+!.env.example
+!.env.database.example
