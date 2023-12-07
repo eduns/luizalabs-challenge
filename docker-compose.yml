@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: magalu-api
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile
+    restart: on-failure
+    ports:
+      - "8081:8081"
+    env_file:
+      - .env
+    depends_on:
+      - db
+    networks:
+      - api-network
+
+  db:
+    container_name: magalu-api-db
+    image: postgres:15.4-alpine
+    restart: on-failure
+    ports:
+      - "5432:5232"
+    volumes:
+      - ./src/infra/database/init.sql:/docker-entrypoint-initdb.d/dbinit.sql
+      - ./db-data:/var/lib/postgresql/data
+    env_file:
+      - .env.database
+    networks:
+      - api-network
+
+volumes:
+  db-data:
+
+networks:
+  api-network:
+    driver: bridge
