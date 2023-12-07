@@ -1,6 +1,6 @@
-# Magalu Challenge
+# LuizaLabs Challenge
 
-Solução para o desafio de backend da Magalu.
+Solução para o desafio de backend da LuizaLabs.
 
 ## Contextualização
 
