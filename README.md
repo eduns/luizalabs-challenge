@@ -42,6 +42,8 @@ Content-Type: multipart/form-data
 
 #### Parâmetros
 
+>Body Parameters
+
 O arquivo de dados vai no campo "files" do corpo da requisição com o nome "legacyData"
 
 ![Request](./docs/request.png)
@@ -56,6 +58,8 @@ Content-Type: application/json
 ``````
 
 #### Parâmetros
+
+>Query Parameters
 
 ```json
 {
