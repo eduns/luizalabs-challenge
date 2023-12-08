@@ -42,20 +42,23 @@ Content-Type: multipart/form-data
 
 #### Parâmetros
 
+>Body Parameters
+
 O arquivo de dados vai no campo "files" do corpo da requisição com o nome "legacyData"
 
 ![Request](./docs/request.png)
 
-
 >Para fazer consulta de dados
 
 ```http
-POST /orders HTTP/1.1
+GET /orders HTTP/1.1
 Host: localhost:8081
 Content-Type: application/json
 ``````
 
 #### Parâmetros
+
+>Query Parameters
 
 ```json
 {
