@@ -22,6 +22,8 @@ Verifique se os seguintes recursos estão instalados:
 - Docker
 - Docker Compose
 
+>Preencha os arquivos **.env** e **.env.database**
+
 Para executar a aplicação, execute o seguinte comando:
 
 ```sh
