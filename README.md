@@ -5,7 +5,7 @@ Solução para o desafio de backend da LuizaLabs.
 ## Contextualização
 
 Para a resolução do desafio, optei por utilizar a Clean Architecture, pois acredito que seja
-uma das melhores arquiteturas para se desenvolver software até o presente momento. Esta arquitetura permite focar em desenvolver as principais regras de negócio, permitindo adiar decisões mais concretas tais como o qual o **Banco de Dados** a ser utilizado. Aqui, os softwares também são mais extensivos, já que a CA permite a inclusão de componentes com as devidas resposabilidades segregadas, além de serem melhores testados, onde cada parte pode ser testada individualmente sem problemas de acoplamento.
+uma das melhores arquiteturas para se desenvolver software até o presente momento. Esta arquitetura permite focar em desenvolver as principais regras de negócio, permitindo adiar decisões mais concretas tais como o qual o **Banco de Dados** a ser utilizado. Aqui, os softwares também são mais extensivos, já que a CA permite a inclusão de componentes com as devidas responsabilidades segregadas, além de serem melhores testados, onde cada parte pode ser testada individualmente sem problemas de acoplamento.
 
 ![Clean Architecture](./docs/ca.jpg)
 
