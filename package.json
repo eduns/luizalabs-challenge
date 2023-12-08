@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "ts-node ./src/infra",
     "build": "rimraf dist && tsc",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
